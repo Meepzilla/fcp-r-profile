@@ -1,0 +1,17 @@
+# Security headers for static hosting, matched to the AscendEd DataTool
+# header set. The /* block applies to every route. The static asset block
+# allows long-lived caching for fingerprinted build files only.
+# The AscendEd set also carries a no-cache rule for /sw.js. This app has
+# no service worker, so that rule does not apply here and is omitted.
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*
+  X-Robots-Tag: noindex
+  Content-Security-Policy: frame-ancestors 'none'; connect-src 'self'; object-src 'none'; base-uri 'self'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()
