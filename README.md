@@ -66,6 +66,20 @@ npm run build
 
 The static site is written to `out/` and can be hosted on any static host.
 
+## Deploy to Cloudflare
+
+The live site runs on Cloudflare Workers Static Assets at
+https://fcp-r-profile.devinllewis-git.workers.dev. The `wrangler.toml`
+config serves the static export in `out/`.
+
+```bash
+npm run deploy
+```
+
+The deploy is a direct deploy of the local tree, not a Git connection.
+Redeploys are manual: rerun the command after the local tree matches the
+repo.
+
 ## Check the code
 
 ```bash

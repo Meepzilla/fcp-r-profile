@@ -1,5 +1,21 @@
 # Changelog
 
+## Unreleased
+
+Cloudflare deployment setup.
+
+Included:
+
+- Cloudflare Workers Static Assets deploy route: `wrangler.toml` names
+  the worker `fcp-r-profile` and serves the static export in `out/`
+  with single-page-application handling for unknown paths.
+- `wrangler` added as a devDependency (Wrangler v4), plus a `deploy`
+  script in `package.json` that runs `next build && wrangler deploy`.
+- The app is live at https://fcp-r-profile.devinllewis-git.workers.dev.
+  The deploy is a direct deploy of the local tree, not a Git
+  connection, so redeploys are manual. Rerun the deploy command after
+  the local tree matches the repo.
+
 ## 2026-11-08 - v0.2.0
 
 Security and structure parity with AscendEd DataTool.
