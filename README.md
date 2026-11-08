@@ -7,16 +7,47 @@ student, section-by-section entry in the form's own wording, a Level of
 Impairment summary, a comparison view between two evaluations of the same
 student, a printable profile report, and JSON and CSV export.
 
-## Data stays on this device
+## Privacy and safety
 
-All data is stored in the browser's local storage on the device where it is
-entered. There is no account, no server, and no network transfer of student
-data. Closing the browser does not erase data, but clearing browser storage
-does. Export a JSON backup regularly from the roster screen.
+All data is stored on the device where it is entered, in the browser's
+IndexedDB storage. There is no account, no server, and no network transfer
+of student data. Closing the browser does not erase data, but clearing
+browser data does. Export a backup regularly from the roster screen.
+
+Storage and protection, in the pattern used by AscendEd DataTool:
+
+- Records live in IndexedDB, not in a whole-blob local storage entry. A
+  store written by version 0.1.x in local storage migrates to IndexedDB on
+  first run of this version. The old copy is removed only after the new
+  copy is verified, and a failed migration keeps the old copy and shows
+  an error.
+- Passcode protection is offered on first run, with an explicit choice
+  to run without it. When it is on, records are encrypted at rest with
+  AES-256-GCM. A random data key encrypts the data, and the data key is
+  wrapped under a key derived from the passcode with PBKDF2-SHA-256 at
+  600,000 iterations and a random salt. The data key is held in memory
+  only while the app is unlocked.
+- A one-time recovery key is generated at setup and shown once. It can
+  unlock the store and reset a forgotten passcode. It cannot be shown
+  again, so it has to be stored somewhere separate from the device.
+- Repeated failed unlock attempts trigger a lockout that grows with
+  each round of failures, and the lockout state survives a reload.
+- Backups come in two forms: a plain JSON file, and a password-protected
+  backup encrypted with the same AES-256-GCM and PBKDF2 machinery, using
+  a password set at export time. Import accepts both and asks for the
+  password when a file is encrypted.
+- The static build ships security headers from `public/_headers`,
+  including a strict Content-Security-Policy, frame denial, HSTS, no
+  referrer, and a restrictive Permissions-Policy.
+- Dependabot configuration lives in `.github/dependabot.yml` (npm,
+  monthly, grouped minor and patch updates).
 
 Saves are only reported as successful after the write completes and reads
 back. If a write fails, the app shows the failure instead of hiding it. A
 warning appears when the stored data grows past 4 MB.
+
+See [SECURITY.md](SECURITY.md) for supported versions, how to report a
+vulnerability, and the full list of security practices.
 
 ## Run it locally
 
@@ -65,7 +96,9 @@ To generate from a different extraction, set `FCPR_FORM_JSON` to its path.
 
 - `src/app/` - the single-page app shell, styles, and print CSS
 - `src/components/` - question fields, impairment summary, comparison, print report
-- `src/lib/` - store, persistence, answer logic, diff, and CSV code
+- `src/lib/` - store, IndexedDB persistence, passcode cryptography, backup handling, answer logic, diff, and CSV code
+- `public/_headers` - security headers for static hosting
+- `.github/dependabot.yml` - monthly grouped npm update pull requests
 - `src/data/fcpr-schema.json` - generated form schema (committed on purpose)
 - `scripts/generate-schema.mjs` - the schema generator
 - `tests/` - schema counts, store, and comparison tests, invented data only

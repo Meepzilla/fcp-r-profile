@@ -1,5 +1,73 @@
 # Changelog
 
+## 2026-11-08 - v0.2.0
+
+Security and structure parity with AscendEd DataTool.
+
+Included:
+
+- Storage moved from local storage (key `fcpr-store-v1`) to IndexedDB. On
+  first run, an existing local storage store migrates to IndexedDB, is
+  read back and verified, and only then is the local storage copy
+  removed. A failed migration keeps the local storage copy and shows an
+  error. Existing records stay readable and are never locked away by
+  this upgrade.
+- Passcode Protection, in the AscendEd pattern:
+  - Offered on first run, with an explicit choice to run without a
+    passcode. Setup never blocks access to the app.
+  - When on, records are encrypted at rest in IndexedDB with
+    AES-256-GCM. A random data key encrypts the data, and the data key
+    is wrapped under a key derived from the passcode with PBKDF2-SHA-256
+    at 600,000 iterations and a random salt. The data key is held in
+    memory only.
+  - A one-time recovery key is generated at setup and shown once. It
+    can unlock the store and set a new passcode.
+  - Settings holds controls to turn protection on, change the passcode,
+    remove the passcode (which stores records in plain form again), and
+    lock the app immediately.
+  - Failed unlock attempts are counted outside the encrypted payload.
+    Five failures trigger a timed lockout that grows with each round of
+    failures and survives a reload.
+  - Saves complete their IndexedDB write and a read-back check before
+    the app reports success. Write failures are shown, not hidden.
+- Password-protected backups: export can encrypt the backup with a
+  password set at export time, using the same AES-256-GCM and PBKDF2
+  machinery. Import accepts plain and encrypted backups, detects which
+  it has, asks for the password when one is needed, and keeps the
+  validate-then-confirm replacement flow. A wrong password gives a
+  clear error and changes nothing.
+- The in-app data panel is now a Privacy Notice in plain language: data
+  on this device only, what the passcode does and does not do, the
+  recovery key warning, and backup guidance.
+- `public/_headers` ships the AscendEd security header set for static
+  hosting: a strict Content-Security-Policy, frame denial,
+  X-Content-Type-Options, no referrer, HSTS, a restrictive
+  Permissions-Policy, noindex, and immutable caching for fingerprinted
+  static assets. The AscendEd service worker cache rule is omitted
+  because this app has no service worker.
+- `SECURITY.md` rewritten in the AscendEd structure: supported
+  versions, vulnerability reporting (with a hard rule against real
+  student data in reports), scope, data handling, and security
+  practices.
+- `.github/dependabot.yml` added: npm ecosystem, monthly, grouped
+  minor and patch updates.
+- Tests added for the cryptography round trip and wrong passcode, the
+  recovery key unlock and passcode reset path, the local storage to
+  IndexedDB migration, the unlock lockout, and the encrypted backup
+  round trip and wrong password path.
+
+Known limits:
+
+- The passcode protects records at rest on this device only. It does
+  not protect records while the app is unlocked, printed reports, or
+  exported files, and it cannot stop someone from clearing browser data
+  and deleting the records.
+- If both the passcode and the recovery key are lost, encrypted records
+  cannot be opened. There is no reset path by design.
+- All earlier limits still apply: no import of existing Google Form
+  responses, and CSV export expands grids one row per grid row with
+  multi-select answers joined by semicolons.
+
 ## 2026-11-08 - v0.1.0
 
 First version. Built from the Google Form "Functional Communication Profile -

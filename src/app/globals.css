@@ -85,6 +85,17 @@ p {
   border-color: var(--error-line);
 }
 
+.recovery-key {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  word-break: break-all;
+}
+
 .save-status {
   color: var(--muted);
   font-size: 0.9rem;
