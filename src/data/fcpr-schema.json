@@ -1,0 +1,2869 @@
+{
+  "formTitle": "Functional Communication Profile - Revised (Digital)",
+  "formDescription": "Expanded Functional Communication Profile form with concise parenthetical descriptions for question titles and options. Review and customize before use.",
+  "sourceFormId": "1HL-fYH_2TLtjFwDnKC1dqtka2ZmXcfGtfyuGCyKlBWk",
+  "generatedFrom": "form-digital.json",
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Student / Client Information",
+      "items": [
+        {
+          "type": "question",
+          "id": "6912a2ed",
+          "questionId": "6153210b",
+          "title": "Evaluation Type (reason or timing for completing this profile)",
+          "description": "",
+          "required": false,
+          "kind": "radio",
+          "options": [
+            "Initial Evaluation (first administration)",
+            "Re-Evaluation (repeat to update status)",
+            "Tri-Annual Evaluation (scheduled reevaluation)",
+            "Annual IEP"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "621b3497",
+          "questionId": "307d4093",
+          "title": "Name (person being evaluated)",
+          "description": "",
+          "required": true,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "6baf55e4",
+          "questionId": "1f5a07eb",
+          "title": "Date (date of form completion)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "5cf41e47",
+          "questionId": "6decf94e",
+          "title": "Birthdate (date of birth)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "239ee098",
+          "questionId": "4d8116db",
+          "title": "Age (current age at evaluation)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "25a2407e",
+          "questionId": "41530a41",
+          "title": "Location (setting where evaluation occurred)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "092f664d",
+          "questionId": "13297d6c",
+          "title": "Diagnosis (medical or educational diagnosis information)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "6694b6ec",
+          "questionId": "7dbabd83",
+          "title": "Method(s) of Administration (ways information was gathered)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Direct Assessment (formal or direct testing)",
+            "Informal Observation (watching in context)",
+            "Review of Records (using existing documents)",
+            "Informant Interview (asking a familiar person)"
+          ],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "4133f37c",
+          "questionId": "1bb41666",
+          "title": "Relationship (for informant interview) (how the informant knows the person)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "heading",
+          "title": "Speech & Language Evaluation Overview"
+        },
+        {
+          "type": "question",
+          "id": "3cf41771",
+          "questionId": "3cf41771",
+          "title": "Level of Impairment (overall severity across major areas)",
+          "description": "",
+          "required": false,
+          "kind": "grid",
+          "options": [],
+          "hasOther": false,
+          "grid": {
+            "columnType": "RADIO",
+            "columns": [
+              "Normal (within expected limits)",
+              "Mild (minor concern)",
+              "Moderate (clear concern)",
+              "Severe (major concern)",
+              "Profound (very significant concern)",
+              "N/A (not applicable)"
+            ],
+            "rows": [
+              {
+                "id": "3263a4e8",
+                "title": "Sensory (sensory processing/access)"
+              },
+              {
+                "id": "36b371ee",
+                "title": "Motor (movement affecting function)"
+              },
+              {
+                "id": "2cca43b3",
+                "title": "Behavior (behavior affecting participation)"
+              },
+              {
+                "id": "0a752b63",
+                "title": "Attentiveness (attention and regulation)"
+              },
+              {
+                "id": "2d24751a",
+                "title": "Receptive Language (understanding of language)"
+              },
+              {
+                "id": "7e6fe3f5",
+                "title": "Expressive Language (use of language)"
+              },
+              {
+                "id": "63a2d161",
+                "title": "Pragmatic/Social (social communication use)"
+              },
+              {
+                "id": "0ba273e2",
+                "title": "Speech (speech clarity and sounds)"
+              },
+              {
+                "id": "5483de27",
+                "title": "Voice (quality, pitch, loudness)"
+              },
+              {
+                "id": "5aa2123c",
+                "title": "Oral (oral/feeding factors)"
+              },
+              {
+                "id": "65aae8b1",
+                "title": "Fluency (speech flow and timing)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "08bed713",
+          "questionId": "12143c3e",
+          "title": "Relevant History (background affecting communication)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "Sensory / Motor (sensory, posture, and movement factors)",
+      "items": [
+        {
+          "type": "question",
+          "id": "052f48b2",
+          "questionId": "11db8fee",
+          "title": "Hearing (auditory access and response)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Normal (hearing appears typical)",
+            "Mild loss (small hearing reduction)",
+            "Moderate loss (noticeable hearing loss)",
+            "Severe loss (major hearing reduction)",
+            "Profound loss (very limited hearing access)",
+            "Uncertain (status not fully known)",
+            "May hear yet not react (detection without response)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5fe78a7a",
+          "questionId": "1a2149e2",
+          "title": "Hearing notes (extra details about hearing)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "144bf772",
+          "questionId": "60848fd7",
+          "title": "Auditory Localization (ability to notice sound source)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (functional for current demands)",
+            "Fair (partially functional)",
+            "Inconsistent (not reliable)",
+            "Poor (limited ability)",
+            "None (not observed)",
+            "Selective to a certain source (responds to only some sounds)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "21f21f35",
+          "questionId": "5e7d7a7c",
+          "title": "Vision (visual functioning and access)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Functional (vision supports participation)",
+            "Possible loss (concern for reduced vision)",
+            "Medical condition (vision affected medically)",
+            "Blindness (no functional vision)",
+            "Impaired (severity or type) (visual difficulty needing details)",
+            "Lenses prescribed (glasses or lenses recommended)",
+            "Worn (lenses are used)",
+            "Not worn (lenses available but not used)",
+            "Lenses not prescribed (no corrective lenses recommended)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "0b882518",
+          "questionId": "0411254d",
+          "title": "Eye Contact (visual attention to people or objects)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (functional engagement)",
+            "Mild deficits (small difficulty)",
+            "Fair (partially reduced)",
+            "Poor (limited visual engagement)",
+            "Best with objects (better with items than people)",
+            "Best with persons (better with people than items)",
+            "Avoids (turns away from gaze contact)",
+            "None (not observed)",
+            "N/A due to blindness (cannot be judged visually)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1deb858b",
+          "questionId": "2a6c102b",
+          "title": "Visual Tracking (ability to visually follow movement)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (tracks as expected)",
+            "Fair (partially tracks)",
+            "Inconsistent (tracking varies)",
+            "Poor (limited tracking)",
+            "Best with objects (tracks objects better)",
+            "Best with persons (tracks people better)",
+            "None (not observed)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "00733af3",
+          "questionId": "03ca80c3",
+          "title": "Visually Inspects Objects (how items are visually examined)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (looks at items functionally)",
+            "Inconsistent (inspection varies)",
+            "Poor (limited object inspection)",
+            "None (not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "77e70f05",
+          "questionId": "195cb084",
+          "title": "Grasp (hand use and holding ability)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (holds items functionally)",
+            "Fair (partial hand use)",
+            "Momentary (brief grasp only)",
+            "Passive (does not actively sustain grasp)",
+            "Randomly tosses (throws without function)",
+            "Unable (cannot grasp functionally)",
+            "Motor impaired, but possible (possible with motor challenge)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "270af3a1",
+          "questionId": "7f9120b8",
+          "title": "Self-Help Skills (independence in daily tasks)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Independent (completes without help)",
+            "Needs assist (requires some support)",
+            "Dependent (relies on others)",
+            "Mixed (performance varies by task)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "44b576a6",
+          "questionId": "1c1ca47a",
+          "title": "Head & Trunk Positioning / communication-swallowing implications (posture effects on communication or feeding)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "4e5f7128",
+          "questionId": "413073d4",
+          "title": "Gross Motor (large body movement abilities)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Ambulatory (walks independently or functionally)",
+            "Poor coordination (movement planning or control issues)",
+            "Poor balance (postural stability concerns)",
+            "Non-ambulatory (does not walk functionally)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "48c0cc44",
+          "questionId": "04e3d693",
+          "title": "Accepts Being Physically Guided (response to physical prompting)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Yes (accepts guidance)",
+            "No (does not accept guidance)",
+            "Partially (accepts in some situations)",
+            "Resistive (pushes back against guidance)",
+            "Tactile defensive (sensitive to touch input)",
+            "Motor restrictions (movement limits acceptance)",
+            "Varies with person or situation (changes across contexts)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "34858440",
+          "questionId": "0b8c40a5",
+          "title": "Motor Imitation (ability to copy actions)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Unprompted (copies independently)",
+            "With physical prompt (needs hands-on support)",
+            "Completely assisted (requires full support)",
+            "Refused (does not attempt)",
+            "N/A – lacks vision (cannot judge due to vision)",
+            "Movement restricted (motor limits imitation)",
+            "Gross but not fine motor (large movements easier than small)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "3d1cc50f",
+          "questionId": "54cc1d9f",
+          "title": "Inappropriate Behavior (behaviors interfering with communication or participation)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Stereotyped repetitive motor mannerisms (repetitive body movements)",
+            "Stimulus fascination (lights, smells, etc.) (strong attraction to sensory input)",
+            "Avoids physical contact or ignores (limited response to physical approach)",
+            "Stimulus oversensitivity (high sensitivity to sensory input)",
+            "Prefers objects to persons (shows more interest in items)",
+            "Poor sensory integration (difficulty organizing sensory input)",
+            "Physical aggression (uses body to harm or threaten)",
+            "Excessive/ritual speech (repetitive or ritualized language)",
+            "Verbal aggression (uses hurtful or threatening language)",
+            "Restricted interests/eccentric (narrow or unusual interests)",
+            "Mouthing inedible objects/body parts (puts unsafe items in mouth)",
+            "Frequent clothes changing (repeated clothing changes)",
+            "Social isolation/withdrawal (pulls away from others)",
+            "Poor social boundaries (limited awareness of interpersonal space)",
+            "Adheres to nonfunctional routines (rigid routines without purpose)",
+            "Poor safety awareness (limited danger recognition)",
+            "Preoccupation with object part (focuses on parts rather than whole)",
+            "Compulsive or rigid (high need for sameness/control)",
+            "Food stealing (takes food without permission)",
+            "Tantrums (intense dysregulation episodes)",
+            "Echolalia (repeats heard speech)",
+            "Rejects change (difficulty with transitions)",
+            "Hoarding (stores or collects excessively)",
+            "Self-abuse (self-injurious behavior)",
+            "Self-talk (talking to self repeatedly)",
+            "Lacks real fear (unsafe underresponse to danger)",
+            "Hyperactivity (excessively active behavior)",
+            "Property destruction (damages materials or environment)",
+            "Swears/curses (uses profanity)",
+            "Irrational fears (fear response not matching situation)",
+            "Easily agitated (becomes upset quickly)",
+            "PICA (eats nonfood items)",
+            "Threatens (makes threatening statements/actions)",
+            "Noncompliant (does not follow directions)",
+            "None reported/observed (these concerns not noted)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "679dc95f",
+          "questionId": "3c61bf5c",
+          "title": "Other inappropriate behavior (behavior not listed above)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "Attentiveness (focus, alertness, and regulation)",
+      "items": [
+        {
+          "type": "question",
+          "id": "3fef4f65",
+          "questionId": "5738493f",
+          "title": "Attention Span (ability to stay focused)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (stays with tasks as expected)",
+            "Mild deficits (slight difficulty sustaining attention)",
+            "Fair (partially reduced attention)",
+            "Poor (attention often limited)",
+            "Fatigues (attention drops with effort)",
+            "Varies with mood (attention changes with emotional state)",
+            "Object preoccupation (focus is captured by preferred items)",
+            "None (not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "59f121be",
+          "questionId": "3b13efb2",
+          "title": "Distractible (how easily attention shifts away)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Almost never (rarely loses focus)",
+            "Occasionally (loses focus sometimes)",
+            "Moderately (noticeable distraction level)",
+            "Frequently (distraction happens often)",
+            "Constantly (attention shifts most of the time)",
+            "Not observed (pattern not seen)",
+            "Depends on task or time (changes with context)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "2ef7551d",
+          "questionId": "5b34e9b9",
+          "title": "Alertness (level of wakefulness and readiness)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (alert for participation)",
+            "Moderate (some reduction in alertness)",
+            "Low (limited readiness or energy)",
+            "Lethargic (very low energy or wakefulness)",
+            "Non-responsive (little or no active response)",
+            "Selective (responds only to certain input)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "4971036d",
+          "questionId": "210b3f33",
+          "title": "Response Rate (speed and consistency of responding)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate (response timing is expected)",
+            "Impulsive (responds before processing fully)",
+            "Mild delays (slight response lag)",
+            "Moderate delays (noticeable response lag)",
+            "Severe delays (marked response lag)",
+            "No response (does not respond)",
+            "Mixed (response pattern varies)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "65125f9c",
+          "questionId": "2498d6cb",
+          "title": "Response Rate - mixed details (notes on receptive versus expressive differences)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "46ca14c9",
+          "questionId": "2c7dd551",
+          "title": "Awareness of Others (attention to nearby people)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (notices and responds to others)",
+            "Fair (partial awareness of others)",
+            "Poor (limited social noticing)",
+            "Non-existent (no clear awareness observed)",
+            "Seeks others (actively looks for people)",
+            "Disregards others (shows limited interest in people)",
+            "Maintains interaction (stays engaged with others)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "4e58bf34",
+          "questionId": "1f0f99f8",
+          "title": "Awareness of Environmental Events (attention to surrounding activity)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Usually (notices most events)",
+            "Moderately (notices some events)",
+            "Occasionally (notices only sometimes)",
+            "Rarely (seldom notices events)",
+            "Never (does not appear to notice)",
+            "Sensory impaired (limited by sensory access)",
+            "Physical status restricts (physical condition affects awareness)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "32400f34",
+          "questionId": "70b208d7",
+          "title": "Cooperation (willingness to participate)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (participates as expected)",
+            "With some prompts (needs occasional support)",
+            "With numerous prompts (needs frequent support)",
+            "Resists (pushes back against participation)"
+          ],
+          "hasOther": true
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "Receptive Language (understanding of spoken, signed, and symbolic input)",
+      "items": [
+        {
+          "type": "question",
+          "id": "624f7e9a",
+          "questionId": "637546d3",
+          "title": "Native Language (first language learned)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "7e048a15",
+          "questionId": "2ad2c0cf",
+          "title": "Languages Understood (languages the person comprehends)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "68bc67e2",
+          "questionId": "5b4d6755",
+          "title": "Oral Comprehension (understanding of spoken language)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Words (understands single words)",
+            "Phrases (understands short combinations)",
+            "Sentences (understands full spoken sentences)",
+            "None (spoken comprehension not observed)",
+            "Simple conversations (understands basic conversation)",
+            "Complex conversations (understands advanced conversation)",
+            "Direct & indirect requests (understands explicit and implied directions)",
+            "Only direct requests (needs very clear requests)",
+            "Literal but not figurative (understands exact more than abstract meaning)",
+            "N/A due to hearing loss (cannot judge because access is reduced)",
+            "Uses sign language (understanding supported by sign)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "46d238bc",
+          "questionId": "1559208c",
+          "title": "Understands Basic Concepts (grasp of common early concepts)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Functional (concept use is meaningful)",
+            "Limitations (some concept difficulty exists)",
+            "Poor (concept understanding is limited)",
+            "None (concept understanding not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "391daf39",
+          "questionId": "04b95f0e",
+          "title": "Concepts Understood (specific concepts currently understood)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Colors (recognizes color concepts)",
+            "Body parts (identifies body-part concepts)",
+            "Size (understands big/small or similar)",
+            "Shape (understands shape terms)",
+            "Money (understands money concepts)",
+            "Object function (knows what things are for)",
+            "Prepositions (understands spatial relation words)",
+            "Categories (groups similar items together conceptually)",
+            "Same/different (distinguishes similarity and difference)",
+            "More/less (understands quantity comparison)",
+            "Opposites/synonyms (understands word relationships)",
+            "How many (understands counting quantity questions)",
+            "Emotions (understands feelings vocabulary)",
+            "Physical property (understands features like hot/cold)",
+            "Time (understands time concepts)",
+            "Quantity (understands amount concepts)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "006da2bf",
+          "questionId": "12dc8098",
+          "title": "Responds to Name (reaction when name is called)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "On request (responds when directly called)",
+            "With sign (responds with sign support)",
+            "With gesture (responds with gesture cue)",
+            "Sensory loss (response may be limited by access)",
+            "No response (does not respond)",
+            "With physical prompt (responds with touch cue)",
+            "May tune out others (sometimes ignores the call)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5e39dba3",
+          "questionId": "131e7fb0",
+          "title": "Responds to Attention Commands (No, Stop, Look) (response to basic attention-directing commands)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "On request (responds to direct verbal cue)",
+            "With sign (responds with sign support)",
+            "With gesture (responds with gesture support)",
+            "Refuses (chooses not to comply)",
+            "Unable (cannot perform the command)",
+            "With physical prompt (needs hands-on support)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "73e70f8b",
+          "questionId": "151a23b8",
+          "title": "Looks at Pictures (interest in and attention to pictures)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "With interest (actively attends to pictures)",
+            "Mildly attentive (brief or partial attention)",
+            "Lacks interest (little interest shown)",
+            "No (does not look meaningfully)",
+            "Only with photos (photos work better than drawings)",
+            "Items, not scenes (focuses on objects more than whole scenes)",
+            "N/A (not applicable or not assessed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "34132d41",
+          "questionId": "224cb0a8",
+          "title": "Accepts Objects Presented (response when an item is given)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "By request (takes item when asked)",
+            "With gesture (takes item with gesture cue)",
+            "With physical prompt (takes item with hands-on support)",
+            "With total assistance (requires full help)",
+            "Motorically unable (cannot due to motor limits)",
+            "Rejects (refuses the presented item)",
+            "No response (does not react)",
+            "Spontaneously (takes item without cue)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "690a1ef0",
+          "questionId": "2fff2d17",
+          "title": "Gives Objects to Speaker (ability to hand items to another person)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "By request (gives item when asked)",
+            "With gesture (gives item with gesture cue)",
+            "With physical prompt (gives item with hands-on support)",
+            "Refuses (does not comply)",
+            "With total assistance (requires full help)",
+            "No response (does not react)",
+            "Motorically unable (cannot because of movement limits)",
+            "Only if exchanging (gives item when it serves a purpose)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "388aab8b",
+          "questionId": "18123cca",
+          "title": "Routine Commands - observed response code(s) (how support was needed for routine commands)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "V = verbal comments (responded with verbal cueing)",
+            "S = signing instruction (responded with sign support)",
+            "T = total assistance (required full support)",
+            "M = motor impairments (motor issues affected response)",
+            "P = physical prompt (needed hands-on support)",
+            "R = refused (did not comply)",
+            "G = gesture (responded with gesture cue)",
+            "U = unable (could not complete)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "751b2010",
+          "questionId": "751b2010",
+          "title": "Routine Commands - types of commands (kinds of routine motor or oral commands followed)",
+          "description": "",
+          "required": false,
+          "kind": "grid",
+          "options": [],
+          "hasOther": false,
+          "grid": {
+            "columnType": "CHECKBOX",
+            "columns": [
+              "V = verbal comments (responded with verbal cueing)",
+              "S = signing instruction (responded with sign support)",
+              "T = total assistance (required full support)",
+              "M = motor impairments (motor issues affected response)",
+              "P = physical prompt (needed hands-on support)",
+              "R = refused (did not comply)",
+              "G = gesture (responded with gesture cue)",
+              "U = unable (could not complete)",
+              "Other"
+            ],
+            "rows": [
+              {
+                "id": "50e0e76b",
+                "title": "Head up (raises head on cue)"
+              },
+              {
+                "id": "2379c708",
+                "title": "Swallow (swallows on cue)"
+              },
+              {
+                "id": "5deccd5b",
+                "title": "Push/pull (moves item with force direction)"
+              },
+              {
+                "id": "6163c1ba",
+                "title": "Touch it (touches target item)"
+              },
+              {
+                "id": "526147fd",
+                "title": "Shake item/limb (shakes object or body part)"
+              },
+              {
+                "id": "78036d83",
+                "title": "Turn on/off (activates or deactivates something)"
+              },
+              {
+                "id": "5d79a9ba",
+                "title": "Hands down (lowers hands on cue)"
+              },
+              {
+                "id": "16087130",
+                "title": "Smile (smiles on cue)"
+              },
+              {
+                "id": "36d4d8ba",
+                "title": "Hold (maintains grasp or position)"
+              },
+              {
+                "id": "50e482e3",
+                "title": "Sit (moves to sit)"
+              },
+              {
+                "id": "5262f702",
+                "title": "Stand (moves to stand)"
+              },
+              {
+                "id": "255a8fe1",
+                "title": "Come here (approaches another person)"
+              },
+              {
+                "id": "067844e0",
+                "title": "Go (moves forward or begins action)"
+              },
+              {
+                "id": "5ab3a7b1",
+                "title": "Open/close mouth (changes oral posture on cue)"
+              },
+              {
+                "id": "5f6e3905",
+                "title": "Handshake (performs greeting motor action)"
+              },
+              {
+                "id": "7eec1304",
+                "title": "Clap (brings hands together rhythmically)"
+              },
+              {
+                "id": "30857c78",
+                "title": "Wave (waves hand on cue)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "33ecc96c",
+          "questionId": "780473fe",
+          "title": "Environmental Commands (response to directions in daily contexts)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Followed on request (completes when asked)",
+            "With repeated command (needs repetition)",
+            "With gestural prompt (needs gesture support)",
+            "With physical prompt (needs hands-on support)",
+            "Multi-step commands (can follow more than one step)",
+            "With written instruction (responds to printed cue)",
+            "Total assistance required (needs full help)",
+            "May understand but is motorically restricted (comprehension may exceed motor output)",
+            "With sign (responds to sign support)",
+            "Needs situational cues (depends on context to respond)",
+            "With picture cues (needs picture support)",
+            "Follows routine (does best within familiar routines)",
+            "No response (does not respond)",
+            "Refuses or uncooperative (does not participate willingly)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "083ee85f",
+          "questionId": "0b454c9a",
+          "title": "Nonverbal Comprehension (understanding of nonspoken communication cues)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Gestures (understands movement-based cues)",
+            "Intonation changes (understands vocal tone shifts)",
+            "Sarcasm (understands nonliteral intent)",
+            "Facial expressions (reads emotion from faces)",
+            "Other's feelings & thoughts (understands internal states of others)",
+            "Social cues (understands social signal patterns)",
+            "Body language (reads posture and movement cues)",
+            "Voice affect of speaker (reads feeling from voice tone)",
+            "Context (uses situation to infer meaning)",
+            "N/A due to sensory loss (cannot judge because access is limited)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "0578c7b3",
+          "questionId": "12b9a5c1",
+          "title": "Object Identification (ability to identify named or requested items)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Verbal request (responds to spoken request)",
+            "With gesture (responds to gesture cue)",
+            "With physical prompt (needs touch support)",
+            "With sign (responds to sign support)",
+            "By function (identifies item by what it does)",
+            "With tactile exploration (uses touch to identify)",
+            "With limited items (does best with few choices)",
+            "None (not demonstrated)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "16c8e803",
+          "questionId": "71d7c0fb",
+          "title": "Two-Dimensional Recognition (understanding of photos, symbols, or pictures)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Photos (understands real-image pictures)",
+            "Line drawings (understands simple drawings)",
+            "Color drawings (understands colored illustrations)",
+            "Symbols (understands symbolic representations)",
+            "Visual deficits (visual issues affect performance)",
+            "Safety signs (recognizes warning or safety symbols)",
+            "Community logos (recognizes familiar logos)",
+            "Requires large pictures (needs bigger visual supports)",
+            "Unable (cannot demonstrate this skill)",
+            "Relies on context cues (needs surrounding cues)",
+            "Understands picture represents message or concept (grasps symbolic representation)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1ee1d26e",
+          "questionId": "0e732369",
+          "title": "Two-Dimensional Recognition - mode of presentation (how picture understanding is shown)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "On verbal request (responds to spoken cue)",
+            "Signed (responds to sign cue)",
+            "Written (responds to printed cue)",
+            "Pantomime (responds to acted cue)",
+            "Pointing prompt (needs pointing cue)",
+            "PECS (uses picture exchange system)",
+            "Match object with picture (pairs object to image)",
+            "Match picture with picture (pairs picture to picture)"
+          ],
+          "hasOther": true
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "Expressive Language (ways the person communicates messages and ideas)",
+      "items": [
+        {
+          "type": "question",
+          "id": "540fd0c1",
+          "questionId": "13cedfee",
+          "title": "Languages Expressed (languages used to communicate)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "59992ba5",
+          "questionId": "38117cbb",
+          "title": "Verbal Status (general expressive communication type)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Nonverbal communicator (does not rely on speech)",
+            "Verbal communicator (primarily uses spoken language)",
+            "Non-oral communicator (uses nonspoken expression)",
+            "Total communication communicator (uses many modes together)",
+            "Limited verbal communicator (uses some speech inconsistently)",
+            "Limited non-oral communicator (uses some nonspoken methods inconsistently)",
+            "Lacks communication (functional expression is very limited)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "0d6236cd",
+          "questionId": "59149d57",
+          "title": "Expressive Level (check highest level) (highest observed expressive language level)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "One unit (single communicative unit)",
+            "Single words (uses isolated words)",
+            "Phrases (uses short word combinations)",
+            "Sentences (uses sentence-length expression)",
+            "Conversation (participates in connected exchange)",
+            "N/A (not applicable or not assessed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "6521c5c9",
+          "questionId": "7ffa535c",
+          "title": "Methods of Communication (ways the person sends messages)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Vocalizations (nonspeech sounds used intentionally)",
+            "Speech (spoken words are used)",
+            "Signing (manual signs are used)",
+            "Writing (written language is used)",
+            "Spelling (letters are used to form messages)",
+            "Facial expressions (meaning shown through face movement)",
+            "Eye gaze/signal (messages shown through eye direction)",
+            "Head nod (head movement conveys meaning)",
+            "Gestures (body or hand movement conveys meaning)",
+            "Actions (meaning conveyed through action)",
+            "Pointing (selects or references by pointing)",
+            "Word cards (printed word supports are used)",
+            "Manipulates others (moves others to communicate wants)",
+            "Photo set/booklet (uses photo-based supports)",
+            "Picture booklet/board (uses visual symbol board)",
+            "PECS (uses picture exchange)",
+            "Word booklet/board (uses printed word board)",
+            "Computer/laptop (uses keyboarded technology)",
+            "Object manipulation (uses objects to communicate)",
+            "Object symbols (uses real object symbols)",
+            "Facilitated communication (uses physical facilitation)",
+            "Augmentative communication device (uses AAC device)",
+            "Activity schedule (visual schedule supports communication)",
+            "Shows object (brings item to communicate)",
+            "None (no consistent method observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "213f5bce",
+          "questionId": "62fcf073",
+          "title": "Self-Expression (topics or purposes expressed)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Name (communicates own identity)",
+            "Basic needs (communicates wants or needs)",
+            "Preferences (communicates likes or dislikes)",
+            "Routines (communicates about recurring activities)",
+            "Physical feelings (communicates body states)",
+            "Social exchanges (engages in interaction)",
+            "Echolalia (repeats language heard from others)",
+            "Interests (shares preferred topics)",
+            "Emotions (communicates feelings)",
+            "Experiences (shares past or current events)",
+            "Concerns (communicates worries or discomfort)",
+            "Opinions (shares personal views)",
+            "Aspirations (shares hopes or goals)",
+            "Humor or joke (uses language playfully)",
+            "Share ideas (offers thoughts or concepts)",
+            "News events (communicates about events)",
+            "Fictitious (creates pretend or fictional content)",
+            "Informed consent (participates in decision expression)",
+            "None expressed (these areas not observed)",
+            "Unable (cannot currently demonstrate)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "0955e6cc",
+          "questionId": "65728bc7",
+          "title": "Quality of Self-Expression (how clear and specific expression is)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Specific (clear and detailed)",
+            "General (broad but understandable)",
+            "Vague (unclear or imprecise)",
+            "Must be inferred (listener must guess intended meaning)",
+            "Variable (changes across contexts)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "0fc163fc",
+          "questionId": "1ccd8a7d",
+          "title": "Quality of Self-Expression - variable details (notes on inconsistency)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "13a7d50a",
+          "questionId": "3f66ccc9",
+          "title": "Object Interaction (how the person engages with materials)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Touches (contacts items intentionally)",
+            "Maintains grasp (holds onto items)",
+            "Tosses (throws items)",
+            "Active reach (reaches purposefully)",
+            "Purposeful gaze (looks at items with intent)",
+            "Non-purposeful gaze (looks without clear communicative purpose)",
+            "Compulsive (interaction is repetitive or driven)",
+            "Ritualistic (interaction follows fixed patterns)",
+            "Operates for cause & effect (acts to get a result)",
+            "Random for self-stimulation (interaction appears self-directed sensory)",
+            "Uses adaptive switch (accesses through switch support)",
+            "Motor restrictions (movement limits access)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "0a6f24db",
+          "questionId": "482b15a2",
+          "title": "Most Common Prompting (support usually needed to respond)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Independent (responds without help)",
+            "Guided assist (benefits from guided support)",
+            "Physical (needs hands-on help)",
+            "Gestural (needs gesture cue)",
+            "Verbal (needs spoken prompting)",
+            "Resists (does not accept prompting well)",
+            "No response (does not respond to prompting)",
+            "Unable (cannot complete even with support)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "182e024d",
+          "questionId": "5ef56ffa",
+          "title": "Appropriate Object Use (functional use of objects and materials)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (uses items functionally)",
+            "With motor limitations (use is affected by movement limits)",
+            "With limited items or during ADL (functional only in certain contexts)",
+            "Rare (appropriate use occurs infrequently)",
+            "Prefers inappropriate items (drawn to nonfunctional objects)",
+            "Insists on sameness (prefers fixed use patterns)",
+            "Excessive preoccupation (overfocused on objects)",
+            "Lacks interest or rejects (little interest in items)",
+            "Shares or shows others (uses objects socially)",
+            "Only solitary (uses objects alone)",
+            "For symbolic play/pretend (uses objects representationally)",
+            "Unable/none (no functional use observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "6616eac4",
+          "questionId": "0c750f9f",
+          "title": "Operates Cause & Effect Item (ability to activate items for a result)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Unprompted (does so independently)",
+            "With verbal request (does so with spoken cue)",
+            "Physically unable (cannot due to motor limits)",
+            "With gestural prompt (needs gesture cue)",
+            "With physical prompt (needs hands-on support)",
+            "No interest (does not engage)",
+            "Repetitive in nature (repeats without flexible purpose)",
+            "Limited items only (works with only some items)",
+            "Not observed (not seen during evaluation)",
+            "With adaptive equipment (uses adapted access method)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1b4f0b0f",
+          "questionId": "134d2be9",
+          "title": "Descriptive Language (how scenes, actions, or stories are described)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Rote naming (labels without elaboration)",
+            "Targets insignificant facts (focuses on less relevant details)",
+            "Isolated action (describes one action only)",
+            "Contains delayed echolalia (uses echoed language from earlier)",
+            "Integrated actions (combines more than one action)",
+            "Projects self into scene (inserts self into the narrative)",
+            "Action sequence (describes events in order)",
+            "Purely literal (does not infer beyond what is seen)",
+            "Narrates with dialogue (includes spoken character lines)",
+            "Supplements verbal with gestures (uses gesture to add meaning)",
+            "Defines central theme (the \"big picture\") (grasps main idea)",
+            "Deduces conclusion (infers what follows or means)",
+            "Comments on thoughts or feelings (describes internal states)",
+            "Misinterprets or distorts theme (does not accurately derive main idea)",
+            "N/A – visually impaired (visual description is not applicable)",
+            "Nonverbal (spoken descriptive language not present)"
+          ],
+          "hasOther": true
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "title": "Basic Communication Expression (forms used to express basic communication functions)",
+      "items": [
+        {
+          "type": "question",
+          "id": "6b6e9f94",
+          "questionId": "6b6e9f94",
+          "title": "Basic Communication Expression Matrix (methods used for basic expression types)",
+          "description": "",
+          "required": false,
+          "kind": "grid",
+          "options": [],
+          "hasOther": false,
+          "grid": {
+            "columnType": "CHECKBOX",
+            "columns": [
+              "Expresses Choices (shows selection)",
+              "Expresses Pleasure / Discomfort (shows internal state)",
+              "Expresses Name (communicates own name)",
+              "Labels Objects (identifies items by label)"
+            ],
+            "rows": [
+              {
+                "id": "7206fb39",
+                "title": "Attempts speech (tries spoken output)"
+              },
+              {
+                "id": "313fb815",
+                "title": "Speaks (uses speech functionally)"
+              },
+              {
+                "id": "05e5b6f1",
+                "title": "Imitates speech (copies spoken models)"
+              },
+              {
+                "id": "6a53f989",
+                "title": "Sign language (uses signs)"
+              },
+              {
+                "id": "09bc13e5",
+                "title": "Fingerspells (uses manual letters)"
+              },
+              {
+                "id": "2176d732",
+                "title": "Alphabet set (uses letters to build messages)"
+              },
+              {
+                "id": "579e0f8d",
+                "title": "Writes (uses handwriting)"
+              },
+              {
+                "id": "2dfc3082",
+                "title": "Types (uses keyboard or typing)"
+              },
+              {
+                "id": "1214d0a3",
+                "title": "Picture system / PECS (uses pictures to communicate)"
+              },
+              {
+                "id": "654b2899",
+                "title": "Word system (uses printed words)"
+              },
+              {
+                "id": "6f4cb8d5",
+                "title": "Eye gaze (uses eye selection)"
+              },
+              {
+                "id": "34c04972",
+                "title": "Communication device (uses AAC technology)"
+              },
+              {
+                "id": "50398e66",
+                "title": "Facilitation (uses facilitated support)"
+              },
+              {
+                "id": "49438522",
+                "title": "Vocalizes (uses sound-based output)"
+              },
+              {
+                "id": "024a0621",
+                "title": "Points/gestures (uses body-based indication)"
+              },
+              {
+                "id": "484158fc",
+                "title": "Facial expression (uses facial movement)"
+              },
+              {
+                "id": "24dc9ffe",
+                "title": "Takes object (uses object exchange)"
+              },
+              {
+                "id": "2f0f85f5",
+                "title": "Body movements (uses whole-body motion)"
+              },
+              {
+                "id": "56ead022",
+                "title": "Shows ID tag or card (uses identification support)"
+              },
+              {
+                "id": "63369a4f",
+                "title": "Head nod answer (answers by head movement)"
+              },
+              {
+                "id": "5a2499db",
+                "title": "Not expressed (function not observed)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "4d32122c",
+          "questionId": "314f1b78",
+          "title": "Uses Common Gestures (use of everyday gestures)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Spontaneous (uses gestures independently)",
+            "With gestural prompt (needs modeled support)",
+            "With physical prompt (needs hands-on support)",
+            "None (gestures not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "59a98754",
+          "questionId": "75b057ef",
+          "title": "Grammar Skills (quality of grammar in communication)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Excellent (very strong grammar use)",
+            "Adequate (functional grammar use)",
+            "Fair (partially developed grammar)",
+            "Poor (limited grammar accuracy)",
+            "None (grammar use not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "2058ec07",
+          "questionId": "3c035660",
+          "title": "Grammar Skills - means (notes explaining grammar rating)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "7f230970",
+          "questionId": "39e23fb1",
+          "title": "Vocabulary (overall breadth of word knowledge)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Extensive (broad word range)",
+            "Basic/functional (practical everyday words)",
+            "Limited (small word range)",
+            "N/A (not applicable or not assessed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "2b8d97c6",
+          "questionId": "29327f8b",
+          "title": "Vocabulary Types Used (types of vocabulary currently used)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Objects (names of things)",
+            "Person (people-related words)",
+            "Places (location words)",
+            "Categories (grouping concepts)",
+            "Present-tense action (current action verbs)",
+            "Past-tense action (past action verbs)",
+            "Future-tense action (future action verbs)",
+            "Possession (ownership concepts)",
+            "Social forms (greetings or social phrases)",
+            "Slang (informal language)",
+            "Quantity (amount words)",
+            "Plurals (more-than-one forms)",
+            "Pronouns (he/she/they etc.)",
+            "Location/direction (place or movement words)",
+            "Yes/no (affirmation or negation)",
+            "Time concepts (before/after or time words)",
+            "Action quality (adverbs) (how actions happen)",
+            "Object quality (adjectives) (describing words)",
+            "Idiomatic expression (colloquial) (phrases with nonliteral meaning)",
+            "Physical & emotional states (feelings or body-state words)",
+            "Similes, metaphors, puns (figurative language)",
+            "Swearing (profanity or taboo words)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "3d7eacf6",
+          "questionId": "6fb6603d",
+          "title": "Average Phrase Length (words) (typical number of words per utterance)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "64979627",
+          "questionId": "4d7aa809",
+          "title": "Imitation Span (words) (longest verbal imitation length)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "153d612c",
+          "questionId": "17bf3298",
+          "title": "Indicate Means (mode used for phrase length or imitation)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Spoken (through speech)",
+            "Signed (through sign)",
+            "Picture/symbol (through visual symbols)",
+            "Printed message (through written words)",
+            "Communication device (through AAC technology)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1d2d8c7c",
+          "questionId": "17da6264",
+          "title": "Other means details (description of another communication mode)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "title": "Pragmatic / Social Language (social use of communication across people and contexts)",
+      "items": [
+        {
+          "type": "question",
+          "id": "30532462",
+          "questionId": "55b0b15b",
+          "title": "Communicative Intent (reasons the person communicates)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Request item/action (asks for something wanted)",
+            "Call/summon (gets another person)",
+            "Compliment/praise (offers positive feedback)",
+            "Deny/negate (rejects or says no)",
+            "Ask for \"more\" (requests continuation)",
+            "Seek/direct care (requests care-related help)",
+            "Describe item/act (describes what is seen or done)",
+            "Affirm (shows agreement)",
+            "Gain attention (draws others in)",
+            "Seek affection (requests closeness or comfort)",
+            "Express gratitude (shows thanks)",
+            "Instruct (directs another person)",
+            "Protest/resist (rejects or opposes)",
+            "Seek approval (looks for confirmation)",
+            "Make plans (talks about future action)",
+            "Deceive (intentionally misleads)",
+            "Greet/take leave (opens or closes interaction)",
+            "Interrupt others (breaks into ongoing interaction)",
+            "Make friends (seeks peer connection)",
+            "Remind (prompts another to remember)",
+            "Command (gives directive)",
+            "Socialize (interacts for connection)",
+            "Assert self (states own position)",
+            "Criticize (expresses negative judgment)",
+            "Request assist (asks for help)",
+            "Offer assist/warn (helps or warns others)",
+            "Offer empathy (responds to others’ feelings)",
+            "Persuade (tries to influence others)",
+            "Inform about self (shares personal information)",
+            "Comment (shares observation or thought)",
+            "Self advocate (speaks up for needs/rights)",
+            "Insult (uses hurtful language)",
+            "Inform about others (shares information about someone else)",
+            "Agree (shows agreement)",
+            "Repair conversation (fixes a communication breakdown)",
+            "Apologize (expresses remorse)",
+            "Provide information (shares facts or details)",
+            "Argue or disagree (states opposition)",
+            "Request clarification (asks for explanation)",
+            "Control (directs others or situation)",
+            "Show interest in others/activity (engages socially around others)",
+            "Clarify meaning/explain (makes message clearer)",
+            "Share interests/objects with others (shares attention or items)",
+            "To play with others (communicates for play)",
+            "Suggest/advise (offers recommendations)",
+            "Inquire (asks for information)",
+            "None demonstrated (not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1ee57fbf",
+          "questionId": "0fa6088e",
+          "title": "Other communicative intent details (additional communication purposes)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "66318629",
+          "questionId": "56730e74",
+          "title": "Initiates Communication (how often communication starts independently)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriately (starts communication in suitable ways)",
+            "Moderately (starts sometimes but not consistently)",
+            "If asked/prompted (usually waits for cue)",
+            "Rarely (seldom initiates)",
+            "Occasionally (initiates at times)",
+            "Excessively (initiates too often)",
+            "Only egocentric (initiates mainly around own wants)",
+            "None (does not initiate)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "71724e72",
+          "questionId": "74c5ca47",
+          "title": "Answers Who, What, & Where Questions (ability to answer simple wh-questions)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Consistently (answers reliably)",
+            "Inconsistently (answers some of the time)",
+            "Minimally (limited ability)",
+            "Not able (cannot yet answer)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "48e32961",
+          "questionId": "29a30cb6",
+          "title": "Answers When, Why, & How Questions (ability to answer more complex wh-questions)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Consistently (answers reliably)",
+            "Inconsistently (answers some of the time)",
+            "Minimally (limited ability)",
+            "Not able (cannot yet answer)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "606243b9",
+          "questionId": "204d2758",
+          "title": "Answers Yes/No Questions (accuracy of yes/no responding)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Consistently (answers reliably)",
+            "Inconsistently (answers variably)",
+            "Minimally (limited accuracy)",
+            "Not able (cannot answer reliably)",
+            "Randomly (indiscriminate) (answers without clear meaning)",
+            "Only concerning needs or desires (accurate mainly for preferred topics)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "7c489abe",
+          "questionId": "0078f592",
+          "title": "Asks Questions (ways the person seeks information)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Simple forms (uses basic question structures)",
+            "Complex forms (uses advanced question structures)",
+            "Uses changes in vocal inflection (signals a question by tone)",
+            "Via gestures (asks nonverbally)",
+            "None elicited/emitted (not observed)",
+            "Reported but not observed (described by others only)",
+            "Interviews listener (asks multiple information-seeking questions)",
+            "Only concerning self (asks mainly about own needs)",
+            "Unable (does not yet ask questions)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1a485256",
+          "questionId": "174ddd50",
+          "title": "Conversational Skills (overall back-and-forth interaction ability)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate (fits conversation demands)",
+            "Need improvement (some development needed)",
+            "Limited (reduced skill range)",
+            "None (not observed)",
+            "Nonverbal (spoken conversation not used)",
+            "Vary with listener (changes by partner)",
+            "Vary with mood (changes by emotional state)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "59e9ae57",
+          "questionId": "72c2ddcb",
+          "title": "Communication Partners (people the individual communicates with)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Family (relatives or home members)",
+            "Peers or coworkers (same-age peers or colleagues)",
+            "Staff/caregiver (support personnel)",
+            "Instructor (teacher or trainer)",
+            "Community member (others in public settings)",
+            "Job coach/supervisor (work-related support staff)",
+            "Poor interest in relationships (limited social motivation)",
+            "None (no regular partners noted)",
+            "Other (another partner type present)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "24280f7b",
+          "questionId": "16a3c384",
+          "title": "Other communication partners (additional partner types)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "738558bb",
+          "questionId": "49711a06",
+          "title": "Conversational Topics (types of topics discussed)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Of mutual interest (shared topic with others)",
+            "Self-centered (focused on own interests)",
+            "Appropriately about self (self-related but socially expected)",
+            "Irrelevant/tangential (off-topic content)",
+            "Perseverative (repetitive restricted topic)",
+            "About rituals (focuses on routines or sameness)",
+            "None initiated (does not generate topics)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5c7212e1",
+          "questionId": "4351deb5",
+          "title": "Turn-Taking (ability to share conversational turns)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate (shares turns effectively)",
+            "Needs cues occasionally (sometimes needs support)",
+            "Needs cues moderately (regular cueing needed)",
+            "Needs cues frequently (frequent cueing needed)",
+            "Fails to attend to listeners (does not orient to partner)",
+            "Dominates the conversation (takes too many turns)",
+            "Uninterested in exchanging (limited reciprocity)",
+            "Unable (cannot participate functionally)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5715ca4f",
+          "questionId": "5f47f38d",
+          "title": "Topic Initiation (ability to start topics)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Independent (starts topics on own)",
+            "With occasional assistance (sometimes needs help)",
+            "Only with assistance or prompting (requires support to start)",
+            "None (does not start topics)",
+            "N/A – no means (cannot initiate due to access limits)",
+            "Excessive for odd (circumscribed)/unusual topics (initiates restricted topics often)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "368505f8",
+          "questionId": "5234c55e",
+          "title": "Topic Maintenance (ability to stay on a topic)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (maintains topic appropriately)",
+            "Prompted (needs support to stay on topic)",
+            "Minimal (limited maintenance ability)",
+            "Unsuccessful (cannot maintain topic)",
+            "Rapidly shifts (changes topic quickly)",
+            "Lacks interest/motivation (limited engagement affects maintenance)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5c179eda",
+          "questionId": "04b5ae9f",
+          "title": "Topic Elaboration - number of different statements (amount of detail added to a topic)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "6d7b3439",
+          "questionId": "00cabe9d",
+          "title": "Topic Elaboration (supports needed to expand a topic)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Independently (adds detail on own)",
+            "Indirect verbal cues (benefits from subtle spoken support)",
+            "Direct verbal prompts (needs clear spoken cue)",
+            "With graphic cues (benefits from visual support)",
+            "Only for fixations (elaborates mostly on restricted interests)",
+            "Not stimulable (does not improve with cueing)",
+            "Nonverbal (spoken elaboration not used)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "483d431c",
+          "questionId": "7adc5c71",
+          "title": "Cause-Effect Reasoning (understanding of why things happen)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate response or explanation (shows accurate causal understanding)",
+            "Routine/rote response or explanation (relies on memorized response)",
+            "Fair response or explanation (partial understanding present)",
+            "Only if prompted or directed (needs support to explain)",
+            "Not expressed (not demonstrated)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "18778e97",
+          "questionId": "742ea5bb",
+          "title": "Shares Personal Data (ability to share personal information)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "17e7d298",
+          "questionId": "111c92c6",
+          "title": "Appropriateness of Communication (fit between communication and context)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Consistent (usually appropriate)",
+            "Inconsistent (varies across situations)",
+            "Occasional (appropriate at times)",
+            "Random (appears unpredictable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "73d0cf73",
+          "questionId": "39e5c326",
+          "title": "Considers listener’s perspective? (awareness of another person’s point of view)",
+          "description": "",
+          "required": false,
+          "kind": "radio",
+          "options": [
+            "Yes (shows perspective taking)",
+            "No (does not yet show perspective taking)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "25643675",
+          "questionId": "30e28bbe",
+          "title": "Uses social rules? (use of expected social communication rules)",
+          "description": "",
+          "required": false,
+          "kind": "radio",
+          "options": [
+            "Yes (uses expected social conventions)",
+            "No (social rule use is limited)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1c80912c",
+          "questionId": "3162fbd3",
+          "title": "Descriptive Conditions (features that describe appropriateness)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Knows where to say it (matches message to place/context)",
+            "Knows what to say (selects suitable content)",
+            "Knows when to say it (times messages appropriately)",
+            "Impaired topics (topic choices are limited or unsuitable)",
+            "Nonverbal (spoken description not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "32dfbb8a",
+          "questionId": "3b7d0b83",
+          "title": "Discusses News Events (ability to talk about events or information)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Specific (gives clear details)",
+            "General (gives broad information)",
+            "Vague (information lacks detail)",
+            "Unaware/no interest (does not know or care about events)",
+            "Rote repetition without meaning or relevance (repeats without understanding)",
+            "Unable to express (cannot communicate about events)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "03cac82f",
+          "questionId": "7dcc65e4",
+          "title": "Reading / Literacy (current reading-related skills)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Letters (recognizes letters)",
+            "Name (recognizes or reads own name)",
+            "Numbers (recognizes numbers)",
+            "Key words (reads common words)",
+            "Survival words (reads safety or daily-use words)",
+            "Phrases (reads short phrases)",
+            "Paragraphs (reads connected text)",
+            "Store signs (recognizes public signs)",
+            "Product labels/logos (recognizes labels or brands)",
+            "None (reading skills not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "28af0f89",
+          "questionId": "246725ec",
+          "title": "Writing / Spelling (current writing-related skills)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Letters (writes letters)",
+            "Numbers (writes numbers)",
+            "Key words (writes common words)",
+            "Name (writes own name)",
+            "Phrases (writes short phrases)",
+            "Conversation (writes connected messages)",
+            "Facilitated (writes with support)",
+            "None (writing skills not observed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "47a92b25",
+          "questionId": "4d859e89",
+          "title": "Memory - Short Term (recent recall and short-term memory)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Functional (supports daily tasks)",
+            "Limitations (some short-term memory difficulty)",
+            "No recall (does not retain recent information)",
+            "Not testable (could not be meaningfully assessed)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "60f8a70b",
+          "questionId": "0352fdf1",
+          "title": "Memory - Long Term (long-term recall and stored knowledge)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Functional (long-term memory supports performance)",
+            "Limitations/selective (memory is reduced or uneven)",
+            "No recall (does not show retained past information)",
+            "Not testable (could not be meaningfully assessed)",
+            "Savant-like skills or calculations (shows isolated advanced memory/calculation skills)"
+          ],
+          "hasOther": true
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "title": "Speech (speech production and intelligibility characteristics)",
+      "items": [
+        {
+          "type": "question",
+          "id": "06bf2a9c",
+          "questionId": "0372e3ee",
+          "title": "Intelligibility (how understandable speech is to listeners)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Easily understood by others (speech is generally clear)",
+            "Understood with minor difficulty (small effort is needed by listener)",
+            "Understood with moderate difficulty (context helps significantly)",
+            "Understood with major difficulty (speech is hard to interpret)",
+            "Not understandable (listener cannot reliably interpret)",
+            "Nonverbal or N/A (speech does not apply)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "7da701c9",
+          "questionId": "58e8020c",
+          "title": "Proficiency Level (largest speech unit used clearly)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Words (single words are clear)",
+            "Phrases (short combinations are clear)",
+            "Conversation (connected speech is usable)",
+            "Context must be known (listener needs background to understand)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "130d2597",
+          "questionId": "27a1294a",
+          "title": "Understood By (who can understand the person’s speech)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Familiar others (people who know the speaker)",
+            "Trained listeners (experienced or clinical listeners)",
+            "Average listeners (unfamiliar everyday listeners)",
+            "All listeners (widely understandable)",
+            "No one (speech is not understood functionally)",
+            "Dialect may interfere with intelligibility (accent/dialect affects perception)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "64ace84a",
+          "questionId": "2af50a8a",
+          "title": "Adjusts Speech to Improve Understanding (ability to repair or clarify speech)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Successful (can improve listener understanding)",
+            "No change required (speech already clear enough)",
+            "Sometimes (repairs inconsistently)",
+            "Rarely (seldom makes effective changes)",
+            "Unsuccessful (repair attempts do not help)",
+            "Self-corrects (monitors and revises independently)",
+            "Requires constant cues (needs frequent support to repair)",
+            "Nonverbal (spoken repair does not apply)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "2fe4a48d",
+          "questionId": "3cf64550",
+          "title": "Sounds Produced (speech sound inventory currently present)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Beginning (vowels, p, b, m, h, w, n, ng) (early-developing sounds present)",
+            "Intermediate sounds (y, k, g, f, d) (mid-level sounds present)",
+            "Advanced intermediate (t, ch, r, sh, s, v, l) (later-developing sounds present)",
+            "Advanced (th, j, zh, z, wh) (more advanced sounds present)",
+            "Consonant blends (combined consonants are present)",
+            "Non-speech sounds (only nonword vocal sounds are produced)",
+            "Age appropriate (sound inventory fits age expectations)",
+            "Delayed (sound development is behind expected age)",
+            "Generalized distortions (distortions affect multiple sounds)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "4a16baa0",
+          "questionId": "4e607570",
+          "title": "Error Phonemes (speech sounds produced incorrectly)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "70255ff0",
+          "questionId": "7b2ab92b",
+          "title": "Omitted Phonemes (speech sounds left out)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "7025685b",
+          "questionId": "6fdd5f91",
+          "title": "Dentition (teeth and oral structure status)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Unremarkable (no major dental concerns)",
+            "Overbite (upper teeth project forward)",
+            "Underbite (lower jaw projects forward)",
+            "Open bite (teeth do not close fully)",
+            "Overcrowding (limited space for teeth)",
+            "Repaired cleft (history of cleft repair)",
+            "Minimal dentition (very few teeth present)",
+            "Wears braces (orthodontic appliances present)",
+            "Removable dentures (uses removable dental appliance)",
+            "Absent (teeth are absent)",
+            "Poor condition (dental health concerns present)",
+            "Uncooperative (oral exam limited by cooperation)",
+            "Some teeth are missing (partial dentition present)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "6cde90bd",
+          "questionId": "43175a0f",
+          "title": "Articulators (status of lips, tongue, jaw, and related structures)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "27c30f5c",
+          "questionId": "058baad9",
+          "title": "Oral-Motor Imitation (ability to imitate oral movements)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "title": "Voice (vocal loudness, quality, and pitch features)",
+      "items": [
+        {
+          "type": "question",
+          "id": "3b0e6c61",
+          "questionId": "181c7948",
+          "title": "Loudness (voice volume characteristics)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (volume is within expected range)",
+            "Excessive (voice is too loud)",
+            "Variable (volume changes unpredictably)",
+            "Inadequate (volume is too soft or weak)",
+            "Low intensity (consistently reduced volume)",
+            "Monoloudness (little variation in volume)",
+            "Nonverbal/non-oral (voice does not apply)",
+            "Fades (volume drops over time)",
+            "Inappropriate to setting (volume does not fit context)",
+            "Reduced breath support (airflow limits vocal strength)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "228fe97a",
+          "questionId": "7fd33240",
+          "title": "Vocal Quality (sound quality of the voice)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Normal (quality within expected range)",
+            "Nasal (excess sound through nose)",
+            "Hoarse (rough strained quality)",
+            "Harsh (forceful rough quality)",
+            "Strained (tight effortful sound)",
+            "Whining (high nasal strained quality)",
+            "Strident (sharp tense quality)",
+            "Breathy (air escapes through voice)",
+            "Whispered (little voicing present)",
+            "Explosive (sudden bursts of sound)",
+            "Vocal fry (low creaky phonation)",
+            "Wet dysarthria (gurgly voice quality)",
+            "Diplophonia (two pitches perceived together)",
+            "Vocal tremors (shaky voice quality)",
+            "Spastic dysphonia (strained neurologic voice pattern)",
+            "Singsong (overly melodic pattern)",
+            "Nonverbal/non-oral (voice use does not apply)",
+            "Cul-de-sac resonance (sound trapped in vocal tract)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "03c8d024",
+          "questionId": "264481a4",
+          "title": "Pitch (perceived highness or lowness of voice)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate (pitch fits age/sex expectations)",
+            "Higher than normal (pitch is elevated)",
+            "Lower range (pitch is lower than expected)",
+            "Variable (pitch changes unpredictably)",
+            "Monotone (little pitch variation)",
+            "Immature for age (pitch pattern seems younger)",
+            "Falsetto (abnormally high register)",
+            "Nonverbal (pitch does not apply)",
+            "Pitch breaks (voice shifts unexpectedly)",
+            "Mimics other's pitch (copies another speaker’s pitch)",
+            "Inappropriate rising inflection (excess upward pitch endings)",
+            "Changes for ritual speech or echolalia (pitch linked to scripted output)",
+            "Inappropriate for gender (pitch differs from expectation for gender presentation)"
+          ],
+          "hasOther": true
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "title": "Oral (oral mechanism, saliva control, and swallowing factors)",
+      "items": [
+        {
+          "type": "question",
+          "id": "6b3788f6",
+          "questionId": "5cf8bf65",
+          "title": "Mouth Breather (how often breathing occurs through the mouth)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Always (mouth breathing is constant)",
+            "Most of the time (mouth breathing is common)",
+            "Some of the time (mouth breathing occurs intermittently)",
+            "Not a problem (not currently concerning)",
+            "Tracheostomy (breathing influenced by trach status)",
+            "Due to nasal congestion (mouth breathing linked to blockage)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "4c469324",
+          "questionId": "2260cdca",
+          "title": "Drooling (presence and management of saliva loss)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Absent (not observed)",
+            "On occasion (occurs sometimes)",
+            "Frequently (happens often)",
+            "Not observed (not seen during session)",
+            "Nearly always (present most of the time)",
+            "Self-monitors (person notices and manages it)",
+            "Unmonitored (does not manage independently)",
+            "Medication prescribed (medical support is in place)",
+            "Requires protective measures (needs bibs or other protection)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "7fe8a895",
+          "questionId": "6f3c8408",
+          "title": "Tongue Thrust (forward tongue movement pattern)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "At rest (present in resting posture)",
+            "On swallow (present during swallowing)",
+            "During speech (present while talking)",
+            "Not observed (not seen during evaluation)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "17a3c4c6",
+          "questionId": "2a83dd6a",
+          "title": "Swallowing & Diet (feeding, swallowing, and diet texture needs)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Gastrostomy tube (receives nutrition through tube)",
+            "Aspiration risk (risk of material entering airway)",
+            "Adequate chew/swallow (oral feeding appears functional)",
+            "Pureed texture (needs smooth blended foods)",
+            "Thickened liquids (liquids require thickening)",
+            "Coughing observed (signs of airway concern noted)",
+            "Ground texture (needs finely broken food)",
+            "Spillage (food or liquid loss from mouth)",
+            "Rapid eating/stuffing (intake pace is unsafe or fast)",
+            "Chopped texture (needs small-cut solids)",
+            "Food pocketing (retains food in cheeks or mouth)",
+            "Uses adaptive equipment (needs special feeding tools)",
+            "Mechanical soft (needs softened solids)",
+            "Modified health diet (follows medical diet plan)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "1653f1f7",
+          "questionId": "1de07ad8",
+          "title": "Adaptive strategies (supports for safer or more effective eating)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "title": "Fluency (speech smoothness, timing, and prosody)",
+      "items": [
+        {
+          "type": "question",
+          "id": "435f452f",
+          "questionId": "093f339d",
+          "title": "Fluency (speech smoothness and disfluency patterns)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Adequate (speech flow is within expected range)",
+            "Repetitions (sounds or words repeat)",
+            "Blocks (speech gets stuck)",
+            "Prolongations (sounds are stretched)",
+            "Halting (speech has stop-start quality)",
+            "Nonverbal (fluency does not apply)",
+            "Irregular pauses (timing includes unusual breaks)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "2f896dbf",
+          "questionId": "576dfdaf",
+          "title": "Secondary mannerisms (associated movements during speech)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "61d5b753",
+          "questionId": "58e302f8",
+          "title": "Rate of Speech (speed of spoken output)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate (rate fits context)",
+            "Too rapid (speech is unusually fast)",
+            "Labored/slow (speech is effortful or slow)",
+            "Variable (rate changes unpredictably)",
+            "Nonverbal (rate does not apply)",
+            "Differs for echolalia (rate changes during echoed speech)",
+            "Progressively faster (speeds up over time)",
+            "Increases for ritual speech (faster with scripted output)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5b35cd3c",
+          "questionId": "60555d1c",
+          "title": "Rhythm & Intonation (speech melody and prosody patterns)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Appropriate (prosody fits message)",
+            "Low affect/intent (limited emotional tone)",
+            "Lacks affect/intent (very little prosodic meaning)",
+            "Nonverbal (prosody does not apply)",
+            "Robotic (unnatural mechanical pattern)",
+            "Caricature patterns (exaggerated unusual prosody)",
+            "Singsong (overly melodic pattern)",
+            "Equal stress (same emphasis across words)",
+            "Prolongs vowels (extends vowel duration)",
+            "Choppy (uneven rhythm)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "02b40f0c",
+          "questionId": "275f0c33",
+          "title": "Changes stress re: meaning? (ability to shift emphasis for meaning)",
+          "description": "",
+          "required": false,
+          "kind": "radio",
+          "options": [
+            "Yes (can vary stress meaningfully)",
+            "No (does not vary stress meaningfully)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "687e9417",
+          "questionId": "0ea4679c",
+          "title": "Other rhythm & intonation description (additional prosody notes)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "title": "Non-Oral Communication (communication through signs, symbols, or AAC)",
+      "items": [
+        {
+          "type": "question",
+          "id": "272b83d1",
+          "questionId": "7136ed19",
+          "title": "N/A (verbal)? (whether this section does not apply because speech is primary)",
+          "description": "",
+          "required": false,
+          "kind": "radio",
+          "options": [
+            "Yes (speech is primary mode)",
+            "No (non-oral communication still applies)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "6f8375d4",
+          "questionId": "65e6cab2",
+          "title": "Use of Sign Language (current sign language use)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "To communicate (used functionally for messages)",
+            "On command (used when prompted)",
+            "Emerging (beginning to develop)",
+            "Imitated (copied after model)",
+            "With physical prompt (needs hands-on support)",
+            "Not stimulable (does not demonstrate even with help)",
+            "Not needed (another mode is sufficient)",
+            "With motor limits (use affected by movement difficulty)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "5f716fe2",
+          "questionId": "7cb2f2cf",
+          "title": "Meaning of Signs (whether signs are understood or expressed)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Understands (comprehends signs from others)",
+            "Expresses (uses signs to communicate)",
+            "None (sign meaning not demonstrated)",
+            "N/A (not applicable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "50905f72",
+          "questionId": "00612194",
+          "title": "Level of Signs (complexity of sign use)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Simple (uses basic signs)",
+            "Complex (uses more advanced sign combinations)",
+            "Fingerspelling (uses manual alphabet)",
+            "Non-functional (sign use lacks communicative purpose)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "491c83e3",
+          "questionId": "6ce8ddd7",
+          "title": "Sample Signs (examples of signs used)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "4efdcaad",
+          "questionId": "2684551d",
+          "title": "Two-Dimensional Expression (use of pictures or symbols to express messages)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Independently (uses symbols without help)",
+            "Emerging skills (beginning symbolic expression)",
+            "With signing prompt (needs sign cueing)",
+            "With PECS (uses picture exchange)",
+            "On command (responds when asked)",
+            "With gestural prompts (needs gesture support)",
+            "Facilitated (needs guided support)",
+            "Unsuccessful (does not yet use effectively)",
+            "N/A (not applicable)",
+            "With adaptive equipment (uses access supports)",
+            "Sequence of icons (combines more than one symbol)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "03806a58",
+          "questionId": "144ac8ea",
+          "title": "Express Yes/No (methods used to communicate yes or no)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "Head nods (uses head movement)",
+            "Motor signals (uses body movement response)",
+            "Eye signal (uses eye movement)",
+            "Signs (uses signed yes/no)",
+            "Symbols/pictures (uses visual symbols)",
+            "Vocalization (uses sound-based response)",
+            "Verbalizes (uses spoken yes/no)",
+            "Printed words (uses written choices)",
+            "Accepts vs. rejects item/activity (shows choice through behavior)",
+            "Spells with alphabet board (uses letters to respond)",
+            "Communication device (uses AAC system)",
+            "None or random (no reliable yes/no method)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "3c7dab54",
+          "questionId": "4565f782",
+          "title": "Current System & Effectiveness (present communication system and how well it works)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "54e19fc2",
+          "questionId": "5b295f4b",
+          "title": "Fine-Motor Abilities (hand skill level affecting access)",
+          "description": "",
+          "required": false,
+          "kind": "checkbox",
+          "options": [
+            "No limitations (fine motor access is functional)",
+            "Fair (some fine motor limitation)",
+            "Poor (significant fine motor difficulty)",
+            "Non-functional (fine motor access is not usable)"
+          ],
+          "hasOther": true
+        },
+        {
+          "type": "question",
+          "id": "3ba83c02",
+          "questionId": "6c85dc00",
+          "title": "Recommended Communication System & Potential (best-fit AAC or communication supports)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    },
+    {
+      "id": "section-13",
+      "title": "Summary (overall findings and recommendations)",
+      "items": [
+        {
+          "type": "question",
+          "id": "39e99929",
+          "questionId": "39071b73",
+          "title": "Test Results (formal or informal assessment findings)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "1e712762",
+          "questionId": "02de88cf",
+          "title": "Current Communication Objectives (present communication goals)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "5c6503cf",
+          "questionId": "270e21dc",
+          "title": "Communication Strengths (areas of relative strength)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "0f95c47e",
+          "questionId": "22d1daca",
+          "title": "Communication Weaknesses / Needs (areas needing support)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "604e3f24",
+          "questionId": "1a500ab9",
+          "title": "General Intervention Strategies (broad treatment recommendations)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "388e53fc",
+          "questionId": "534ea6d6",
+          "title": "Related Plans in Other Settings (supports used across environments)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "4498b639",
+          "questionId": "3748c83b",
+          "title": "How Residential & Day Program Plans Coordinate (coordination across care settings)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "352b9b81",
+          "questionId": "4751bb89",
+          "title": "How to Integrate Communication with Other Disciplines (Psych., P.T., O.T., Rec.) (team-based collaboration recommendations)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "62867835",
+          "questionId": "795cc338",
+          "title": "Recommendations, Progress, Referrals & Medical Necessity (clinical recommendations and justification)",
+          "description": "",
+          "required": false,
+          "kind": "text-paragraph",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "0d479a08",
+          "questionId": "5f162100",
+          "title": "Speech-Language Pathologist (clinician completing the report)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "13644ab5",
+          "questionId": "47df0309",
+          "title": "Evaluator (person conducting the evaluation)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "0f093984",
+          "questionId": "2ba81c16",
+          "title": "Phone (contact number)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        },
+        {
+          "type": "question",
+          "id": "61784a99",
+          "questionId": "0845a1d8",
+          "title": "Email Address (mailing or email address)",
+          "description": "",
+          "required": false,
+          "kind": "text-short",
+          "options": [],
+          "hasOther": false
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "sections": 13,
+    "questions": 147,
+    "items": 161
+  }
+}
